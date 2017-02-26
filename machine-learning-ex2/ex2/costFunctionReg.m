@@ -21,7 +21,7 @@ hypothesis = sigmoid(theta' * X');
 
 c1 = (-(log(hypothesis) * y) - log(ones(1,m) - hypothesis)*(ones(m,1) - y))/m;
 
-c2 = (lambda/(2*m)) * (sum(theta .^ 2) - theta(1,1) ^2);
+c2 = (lambda/(2*m)) * (sum(theta .^ 2) - theta(1,1) ^ 2);
 
 J = c1 + c2;
 
@@ -37,9 +37,6 @@ for iter = 1:n
 end
 
 grad = gradient;
-
-
-
 
 % =============================================================
 

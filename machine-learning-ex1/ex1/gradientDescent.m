@@ -23,8 +23,6 @@ for iter = 1:num_iters
   
   theta = [theta1;theta2];
 
-
-
     % ============================================================
 
     % Save the cost J in every iteration    
