@@ -59,13 +59,6 @@ for c = 1: num_labels
   all_theta(c, :) = theta;
 end
 
-%tmp = zeros(num_labels, n + 1);
-
-%tmp(1,:) = all_theta(num_labels,:);
-
-%tmp(2:end, :) = all_theta(1:num_labels-1, :);
-
-
 % =========================================================================
 
 end
